@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8a5223acdba03684c9a40917d2fc6964
+guid: d5156ad0409c6f644927851d452772c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaspB_0
+      name: Rectangle 9 (3)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 140
-        height: 140
+        width: 464
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 642e01ccbd4225648b1b7066a56b9e33
-      internalID: -1673713521
+      spriteID: ae8723c4feca2c347bf523189135fa08
+      internalID: -636717793
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ac9a07dcbd9212c408b4ae08ea91d58e
+    spriteID: 018610fc2fccb564a865188b29caa220
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaspB_0: -1673713521
+      Rectangle 9 (3)_0: -636717793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -210,3 +210,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 684319357661606385}
+  pieceInfo:
+    blackIcon: {fileID: 0}
+    whiteIcon: {fileID: 0}
+    name: 
+    tagLine: 
+    materialValue: 0
+    description: 
+    abilityName: 
+    abilityDescription: 
+    pieceObject: {fileID: 0}
