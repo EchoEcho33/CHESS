@@ -1175,46 +1175,93 @@ MonoBehaviour:
     - blackIcon: {fileID: 21300000, guid: e4830e7aac2e04845b11d9783d216baa, type: 3}
       whiteIcon: {fileID: 21300000, guid: 61a423ef6b867e24189d5bc6c01948de, type: 3}
       name: Pawn
-      tagLine: yo!
+      tagLine: Small but Mighty
       materialValue: 1
-      description: hey, I'm a little pawn, i can move forward. hopefully i can help
-        out!
-      abilityName: en passant
-      abilityDescription: this is what happens when people get bored and make up
-        rules.
+      description: Little guys that can become queens if you let them get to the
+        end of the board.
+      abilityName: En Passant
+      abilityDescription: If another pawn passes directly to the side of this pawn,
+        this pawn can take the other pawn.
       pieceObject: {fileID: 7936696709198321180, guid: 4107ab986cbf67541b9b39c057e0062e, type: 3}
     - blackIcon: {fileID: 21300000, guid: acd8ff07ff6662e4a95de4444d5854a5, type: 3}
       whiteIcon: {fileID: 21300000, guid: db1d3268db33746478da4e06a6494b27, type: 3}
+      name: Knight
+      tagLine: Horsie
+      materialValue: 3
+      description: 
+      abilityName: Jump
+      abilityDescription: As long as it does not land on an ally, the Knight can
+        jump over other pieces.
+      pieceObject: {fileID: 1299729678981032934, guid: 2a6dce7b1ed90dc409ccc3fcf8f1e3f7, type: 3}
+    - blackIcon: {fileID: 21300000, guid: acd8ff07ff6662e4a95de4444d5854a5, type: 3}
+      whiteIcon: {fileID: 21300000, guid: db1d3268db33746478da4e06a6494b27, type: 3}
+      name: Bishop
+      tagLine: 
+      materialValue: 3
+      description: 
+      abilityName: 
+      abilityDescription: 
+      pieceObject: {fileID: 1299729678981032934, guid: 2a6dce7b1ed90dc409ccc3fcf8f1e3f7, type: 3}
+    - blackIcon: {fileID: 21300000, guid: acd8ff07ff6662e4a95de4444d5854a5, type: 3}
+      whiteIcon: {fileID: 21300000, guid: db1d3268db33746478da4e06a6494b27, type: 3}
       name: Rook
-      tagLine: hi!
+      tagLine: Straight as an Arrow
       materialValue: 5
-      description: i like moving up and down, no diagonals for me. I really hate
-        the bishop
-      abilityName: idk
-      abilityDescription: i guess im useful for checkmate? nothing special here
+      description: Apparently now castle towers can move on their own. He shares
+        a special bond with his king.
+      abilityName: Castle
+      abilityDescription: If neither the rook or king have moved this game, you can
+        move the rook two pieces towads the king, then the king to the other side
+        of the rook.
+      pieceObject: {fileID: 1299729678981032934, guid: 2a6dce7b1ed90dc409ccc3fcf8f1e3f7, type: 3}
+    - blackIcon: {fileID: 21300000, guid: acd8ff07ff6662e4a95de4444d5854a5, type: 3}
+      whiteIcon: {fileID: 21300000, guid: db1d3268db33746478da4e06a6494b27, type: 3}
+      name: The Queen
+      tagLine: Off with your head!
+      materialValue: 9
+      description: An absolute powerhouse of the king's army. She can and will step
+        all over you.
+      abilityName: 
+      abilityDescription: 
+      pieceObject: {fileID: 1299729678981032934, guid: 2a6dce7b1ed90dc409ccc3fcf8f1e3f7, type: 3}
+    - blackIcon: {fileID: 21300000, guid: acd8ff07ff6662e4a95de4444d5854a5, type: 3}
+      whiteIcon: {fileID: 21300000, guid: db1d3268db33746478da4e06a6494b27, type: 3}
+      name: Rook
+      tagLine: Straight as an Arrow
+      materialValue: 5
+      description: Apparently now castle towers can move on their own. He shares
+        a special bond with his king.
+      abilityName: Castle
+      abilityDescription: If neither the rook or king have moved this game, you can
+        move the rook two pieces towads the king, then the king to the other side
+        of the rook.
       pieceObject: {fileID: 1299729678981032934, guid: 2a6dce7b1ed90dc409ccc3fcf8f1e3f7, type: 3}
   - name: Warfare
     icons:
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 535400266, guid: 584bbf7f76ccb5046a4f79162f04957e, type: 3}
+    - {fileID: -1572093243, guid: 85abe17bea9db9646b0b46110094974e, type: 3}
     pieces:
-    - blackIcon: {fileID: 0}
-      whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-      name: Pawn
-      tagLine: yo!
-      materialValue: 0
-      description: hey
-      abilityName: 
-      abilityDescription: 
+    - blackIcon: {fileID: -1239950187, guid: 6cfeb7940aeb41945a4db36b320264b6, type: 3}
+      whiteIcon: {fileID: 535400266, guid: 584bbf7f76ccb5046a4f79162f04957e, type: 3}
+      name: ICBM
+      tagLine: Is this even allowed?
+      materialValue: 3
+      description: The missile knows where it is at all times. It knows this because
+        it knows where it isn't, by subtracting where it is, from where it isn't,
+        or where it isn't, from where it is, whichever is greater, it obtains a difference,
+        or deviation. The guidance sub-sy...
+      abilityName: Boom
+      abilityDescription: Can capture any amount of pieces within its movement pass.
+        This piece is destroyed after taking a piece.
       pieceObject: {fileID: 3505494906678965196, guid: e81f18c574d4faf4eb093d2c6cb8e04c, type: 3}
-    - blackIcon: {fileID: 0}
+    - blackIcon: {fileID: -1572093243, guid: 85abe17bea9db9646b0b46110094974e, type: 3}
       whiteIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-      name: Rook
-      tagLine: no :(
-      materialValue: 0
-      description: bye
-      abilityName: 
-      abilityDescription: 
+      name: Killdozer
+      tagLine: Kill Kill Kill
+      materialValue: 2
+      description: 'The ultimate bullzozer, built for destruction. '
+      abilityName: Push
+      abilityDescription: Push an ally or enemy up to 2 spaces at a time.
       pieceObject: {fileID: 0}
   - name: Memes
     icons:
@@ -1227,8 +1274,9 @@ MonoBehaviour:
       tagLine: Mwah
       materialValue: 3
       description: You kiss boys don't you?
-      abilityName: AAA
-      abilityDescription: AAA
+      abilityName: Kiss
+      abilityDescription: After moving this piece, you can stun any piece on a 5x5
+        square of where you land.
       pieceObject: {fileID: 3505494906678965196, guid: e81f18c574d4faf4eb093d2c6cb8e04c, type: 3}
   - name: Animals
     icons:
