@@ -17,12 +17,13 @@ public class GameManager : MonoBehaviour
 
 	[Header("Game State")]
 	public Team CurrentTurn { get; private set; } = Team.White;
+	public int turnCount = 0;
 
 
 	public CanvasGroup DebugUI;
 	public bool DebugUIVIsible = false;
 
-	private void Start()
+	private void Awake()
 	{
 		if (Instance != null && Instance != this)
 		{
@@ -35,6 +36,7 @@ public class GameManager : MonoBehaviour
 
 		// Example: start with White
 		Board.InitBoard();
+		Board.SpawnAllPieces();
 		StartGame(Team.White);
 	}
 
@@ -63,6 +65,8 @@ public class GameManager : MonoBehaviour
 		// Switch turn
 		CurrentTurn = (CurrentTurn == Team.White) ? Team.Black : Team.White;
 
+		turnCount++;
+
 		Debug.Log($"Turn ended. Now it's {CurrentTurn}'s move.");
 
 		// Update camera to face the active team
@@ -72,6 +76,9 @@ public class GameManager : MonoBehaviour
 		// Later: trigger board highlighting, legal move generation, timers, etc.
 
 		TurnStatusText.text = "Turn: " + CurrentTurn.ToString();
+
+		Board.TileTrigger();
+		Board.TurnSwapTrigger();
 	}
 
 	public void ResetGame()

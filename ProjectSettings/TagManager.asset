@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Tile
+  - Draggable Piece
+  - Dragable Piece
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - Highlight
   - OpponentHighlight
   - SpecialHighlight
-  - 
-  - 
+  - WhiteOutline
+  - BlackOutline
   - 
   - 
   - 
